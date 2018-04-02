@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "Simple chrome extension example",
+  "description": "This extension allows the user to use components like browser action, notifications and omnibox.",
+  "version": "0.1",
+  "icons": {
+    "96": "images/icons8-jam-96.png"
+  },
+
+  "default_locale": "en", // https://developer.chrome.com/extensions/i18n
+
+  "browser_action": {
+    "default_icon": "images/icons8-jam-96.png",
+    "default_popup": "templates/popup.html" ,
+    "default_title": "Click here!"
+  },
+  
+  "omnibox": { "keyword" : "fibonacci" },
+  
+  "options_page": "templates/options.html",
+
+  "permissions": [
+    "activeTab",
+    "storage",
+    "notifications",
+    "tabs"
+  ]
+}
+

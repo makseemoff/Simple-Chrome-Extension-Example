@@ -1,0 +1,27 @@
+{
+  "this_is_title": {
+    "message": "This is title!"
+  },
+  "this_is_still_title": {
+    "message": "This is still a title!"
+  },
+  "text": {
+    "message": "text"
+  },
+  "notifications_granted": {
+    "message": "Granted: User has elected to show notifications from the app or extension."
+  },
+  "notifications_denied": {
+    "message": "Denied: User has elected not to show notifications from the app or extension."
+  },
+  "we_dont_need_roads": {
+    "message": "Roads? Where we're going, we don't need roads."
+  },
+  "why_do_you_keep_calling_me_calvin": {
+    "message": "Calvin? Wh... Why do you keep calling me Calvin?"
+  },
+  "first_create_notification": {
+    "message": "First create a notification"
+  }
+}
+
